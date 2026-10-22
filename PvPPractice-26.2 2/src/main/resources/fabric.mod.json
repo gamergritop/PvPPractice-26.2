@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "pvppractice",
+  "version": "${version}",
+  "name": "PvP Practice",
+  "description": "Summon a geared PvP practice opponent in single-player without enabling cheats.",
+  "authors": ["PvPPractice"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.pvppractice.PvPPracticeMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
